@@ -21,11 +21,11 @@ try{
         //predictionText.textContent=`Prediction: ${result.prediction}`;
 
         if (result.prediction === 'yes') {
-            predictionText.textContent=`You're so Dead bro`;
+            predictionText.textContent=`Tumor found! You're so Dead bro`;
             resultImage.src = 'images/depressed.png';
         } else if (result.prediction === 'no') {
-            predictionText.textContent=`Ohhh you're Fine cutie`;
-            resultImage.src = 'images/rickroll.png';
+            predictionText.textContent=`No tumor you're fine cutie`;
+            resultImage.src = 'images/kiss.png';
         }
         resultImage.style.display = 'block';
 
