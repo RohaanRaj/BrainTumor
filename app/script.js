@@ -25,7 +25,7 @@ try{
             resultImage.src = 'images/depressed.png';
         } else if (result.prediction === 'no') {
             predictionText.textContent=`No tumor you're fine cutie`;
-            resultImage.src = 'images/kiss.png';
+            resultImage.src = 'images/kiss.jpeg';
         }
         resultImage.style.display = 'block';
 
